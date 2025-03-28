@@ -1,0 +1,95 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+**/node_modules/
+bower_components/
+vendor/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Build and release directories
+build/
+dist/
+**/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+*.jar
+*.war
+*.ear
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+**/.env*
+
+# MongoDB
+/data/db/
+*.ns
+*.0
+*.1
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+mongod.log
+
+# Frontend (Vite/React)
+**/.vite/
+**/vite.config.js.timestamp-*
+**/vite.config.js.hot-update.json
+
+# Testing (Jest)
+**/coverage/
+**/jest*.config.js
+**/test-results/

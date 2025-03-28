@@ -1,0 +1,38 @@
+/* Global styles for Aashu application */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F5FA;
+  color: #333;
+}
+
+/* Accessibility improvements */
+:focus {
+  outline: 2px solid #6750A4;
+  outline-offset: 2px;
+}
+
+/* High contrast mode can be toggled via user settings */
+.high-contrast {
+  --primary-color: #000;
+  --background-color: #fff;
+  --text-color: #000;
+  --border-color: #000;
+}
+
+/* Reduced motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
